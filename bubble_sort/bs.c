@@ -30,7 +30,7 @@ int main() {
   int n = sizeof(arr)/sizeof(arr[0]);
 
   long startMs = millis();
-  quickSort(arr, n);
+  bubbleSort(arr, n);
   long endMs = millis();
 
   printf("EXECUTION TIME: %lu ms\n", (endMs - startMs));
